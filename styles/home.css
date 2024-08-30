@@ -78,6 +78,7 @@ section{
     align-items: center;
     flex-direction: column;
     width: 100%;
+    text-align: center;
 }
 
 section img{
@@ -95,6 +96,18 @@ section img{
 .bottom-header{
     position: relative;
     display: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--secondary-color);
+    opacity: 0.9;
+}
+
+
+.bottom-header.active{
+    position: relative;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
