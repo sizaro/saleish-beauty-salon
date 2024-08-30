@@ -182,6 +182,10 @@ nav ul li a{
     
 }
 
+.testimonyh4{
+  font-size: 1rem;
+}
+
 .span1, .span2, .span3{
     display: block;
     width: 100%;
