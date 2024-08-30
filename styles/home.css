@@ -1,0 +1,236 @@
+@import url(https://coolors.co/d1cbc3-121113-2c2a2e-1c1816-32343f-6d6968-3f2d21-302721);
+:root{
+    --primary-color:#121113;
+    --secondary-color: #2c2a2e;
+    --primary-headed-color: #1c1816;
+    --color:#32343f;
+    --color1:#6d6968;
+    --color2:#3f2d21;
+    --color3:#302721;
+    --space-color:white;
+    --hover-color: #d1cbc3;
+}
+
+/*media query for mobile phones, 480px*/
+*{
+    box-sizing: border-box;
+}
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.site-logo{
+    width: 100px;
+    height: 40px;
+    margin-top: -2.2rem;
+}
+.logo-image{
+    width: 100%;
+    height: 100%;
+}
+
+.action-icon {
+    margin-left: 2rem;
+    width: 100px;
+    background-color: var(--color);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.action-icon p {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    background-color: var(--space-color);
+}
+
+
+.header-container img{
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+}
+
+.content-wrapper, .testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-wrapper{
+    margin-top: 1rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+section img{
+    width: 100%;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.bottom-header{
+    position: relative;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--secondary-color);
+    opacity: 0.9;
+}
+
+.site-humburger{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    right: 0;
+    background-color: var(--color1);
+    opacity: 0.8;
+}
+
+.welcome-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 3rem
+}
+
+.welcome-msg h1{
+    position: absolute;
+    color: var(--space-color);
+    margin-top: 9rem;
+    text-shadow: 0 0 4px black;
+}
+
+.welcome-msg h3{
+    position: absolute;
+    color: var(--space-color);
+    margin-top: 13rem;
+    text-shadow: 0 0 4px black;
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: var(--space-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+.humburger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--space-color);
+    text-align: center;
+    margin-right: 0.4rem;
+    
+}
+
+.span1, .span2, .span3{
+    display: block;
+    width: 100%;
+    height: 0.4rem;
+    background-color: var(--primary-color);
+    margin: 0.1rem;
+    text-align: center;
+}
+
+.x-icon{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    margin-right: 0.4rem;
+    right: 0;
+    top: 0;
+    margin-top: -3rem;
+    
+}
+
+.xspan1{
+    position: absolute;
+    left: 0.5rem;
+    width: 1rem;
+    height: 0.2rem;
+    background-color: var(--space-color);
+    text-align: center;
+    transform: rotate(50deg);
+    
+}
+
+.xspan2{
+    position: absolute;
+    right: 0.5rem;
+    width: 1rem;
+    height: 0.2rem;
+    background-color: var(--space-color);
+    text-align: center;
+    transform: rotate(-50deg);
+}
+footer{
+    background-color:var(--secondary-color);
+    text-align: center;
+}
+
+footer p{
+    color: white;
+}
+
+/*media query for small tablets, 768px*/
+
+@media screen and (min-width:480px) and (max-width:768px){
+
+}
+
+/*media query for laptops, 768px*/
+
+@media screen and (min-width:769px) and (max-width:1024px){
+
+}
+
+/*media query for larger screens, 768px*/
+
+@media screen and (min-width:1025px){
+
+}
+
